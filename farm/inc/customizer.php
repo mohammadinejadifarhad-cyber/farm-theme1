@@ -1,29 +1,29 @@
 <?php
 function farm_customize_register( $wp_customize ) {
-    // افزودن یک بخش برای گزینه‌های پوسته
+    // Add a section for the theme options
     $wp_customize->add_section( 'farm_theme_options', array(
-        'title'    => __( 'گزینه‌های پوسته', 'farm' ),
+        'title'    => __( 'Theme Options', 'farm' ),
         'priority' => 30,
     ) );
 
-    // افزودن تنظیمات لوگو
+    // Add a setting for the logo
     $wp_customize->add_setting( 'farm_logo' );
 
-    // افزودن کنترل لوگو
+    // Add a control for the logo
     $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'farm_logo_control', array(
-        'label'    => __( 'بارگذاری لوگو', 'farm' ),
+        'label'    => __( 'Upload Logo', 'farm' ),
         'section'  => 'farm_theme_options',
         'settings' => 'farm_logo',
     ) ) );
 
-    // افزودن تنظیمات متن پابرگ
+    // Add a setting for the footer text
     $wp_customize->add_setting( 'farm_footer_text', array(
-        'default' => __( '© ' . date( 'Y' ) . ' نام شرکت شما. تمامی حقوق محفوظ است.', 'farm' ),
+        'default' => __( '© ' . date( 'Y' ) . ' Your Company Name. All rights reserved.', 'farm' ),
     ) );
 
-    // افزودن کنترل متن پابرگ
+    // Add a control for the footer text
     $wp_customize->add_control( 'farm_footer_text_control', array(
-        'label'    => __( 'متن پابرگ', 'farm' ),
+        'label'    => __( 'Footer Text', 'farm' ),
         'section'  => 'farm_theme_options',
         'settings' => 'farm_footer_text',
         'type'     => 'text',

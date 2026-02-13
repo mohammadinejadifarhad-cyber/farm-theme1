@@ -1,5 +1,5 @@
 <?php
-// این فایل چیدمان محتوای یک نوشته تکی را مشخص می‌کند.
+// This file defines the layout for the content of a single post.
 
 if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
@@ -26,5 +26,5 @@ if ( have_posts() ) :
             </footer>
         </article>
     <?php endwhile;
-endif;
+endif; 
 ?>

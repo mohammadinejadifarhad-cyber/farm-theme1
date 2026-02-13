@@ -1,16 +1,16 @@
 <?php
-// راه‌اندازی قابلیت‌ها و امکانات پوسته
+// Setup theme features and functionality
 
 function farm_setup() {
-    // افزودن پشتیبانی از تصویر شاخص
+    // Add support for post thumbnails
     add_theme_support('post-thumbnails');
 
-    // ثبت فهرست ناوبری سفارشی
+    // Register a custom navigation menu
     register_nav_menus(array(
-        'primary' => __('فهرست اصلی', 'farm'),
+        'primary' => __('Primary Menu', 'farm'),
     ));
 
-    // افزودن پشتیبانی از نشانه‌گذاری HTML5
+    // Add support for HTML5 markup
     add_theme_support('html5', array(
         'search-form',
         'comment-form',
@@ -19,7 +19,7 @@ function farm_setup() {
         'caption',
     ));
 
-    // افزودن پشتیبانی از لوگوی سفارشی
+    // Add support for custom logo
     add_theme_support('custom-logo', array(
         'height' => 100,
         'width' => 400,
@@ -28,6 +28,6 @@ function farm_setup() {
     ));
 }
 
-// اتصال تابع راه‌اندازی به اکشن after_setup_theme
+// Hook the setup function to the after_setup_theme action
 add_action('after_setup_theme', 'farm_setup');
 ?>

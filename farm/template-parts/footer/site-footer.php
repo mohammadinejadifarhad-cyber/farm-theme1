@@ -1,8 +1,8 @@
 <?php
 /**
- * قالب پابرگ سایت
+ * Site Footer Template
  *
- * شامل پایان‌بندی بخش محتوا و محتوای پس از آن.
+ * Contains the closing of the #content div and all content after.
  *
  * @package farm
  */

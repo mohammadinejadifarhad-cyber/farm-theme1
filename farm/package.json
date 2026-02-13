@@ -1,7 +1,7 @@
 {
   "name": "farm",
   "version": "1.0.0",
-  "description": "یک پوسته سفارشی وردپرس برای کسب‌وکار کشاورزی فروشنده کود و سم.",
+  "description": "A custom WordPress theme for an agricultural business selling fertilizers and pesticides.",
   "main": "index.php",
   "scripts": {
     "build": "npm run build-css && npm run build-js",
@@ -16,6 +16,6 @@
   "devDependencies": {
     "sass": "^1.32.0"
   },
-  "author": "توسعه‌دهنده پوسته",
+  "author": "Your Name",
   "license": "MIT"
 }

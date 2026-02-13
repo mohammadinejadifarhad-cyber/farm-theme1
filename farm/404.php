@@ -1,5 +1,5 @@
 <?php
-// 404.php - قالب نمایش صفحات ۴۰۴ (یافت نشد)
+// 404.php - Template for displaying 404 pages (not found)
 
 get_header(); ?>
 
@@ -14,7 +14,7 @@ get_header(); ?>
 
             <?php get_search_form(); ?>
 
-            <p><?php esc_html_e( 'یا به ', 'farm' ); ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'صفحه اصلی', 'farm' ); ?></a><?php esc_html_e( ' برگردید.', 'farm' ); ?></p>
+            <p><?php esc_html_e( 'یا به ', 'farm' ); ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'صفحه اصلی', 'farm' ); ?></a>.</p>
         </div><!-- .page-content -->
     </section><!-- .error-404 -->
 </main><!-- #main -->

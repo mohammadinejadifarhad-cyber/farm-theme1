@@ -1,8 +1,8 @@
 <?php
 /**
- * فایل قالب اصلی.
+ * The main template file.
  *
- * این فایل قالب پشتیبان برای سایر قالب‌های پوسته است.
+ * This is the fallback template for all other templates in the theme.
  *
  * @package farm
  */

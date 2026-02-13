@@ -1,5 +1,5 @@
 <?php
-// بخش پابرگ پوسته
+// Footer section of the theme
 ?>
 
 <footer>

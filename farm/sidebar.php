@@ -1,5 +1,5 @@
 <?php
-// نوار کناری پوسته
+// filepath: /C:/xampp/htdocs/helehroyesh/wp-content/themes/farm/sidebar.php
 ?>
 <div class="sidebar" role="complementary" aria-label="<?php echo esc_attr__( 'نوار کناری', 'farm' ); ?>">
     <h2><?php echo esc_html__( 'نوار کناری', 'farm' ); ?></h2>

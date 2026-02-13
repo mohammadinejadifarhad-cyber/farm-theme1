@@ -1,8 +1,8 @@
 <?php
 /**
- * فایل قالب صفحه نخست
+ * The front page template file
  *
- * این قالب صفحه اصلی سایت را نمایش می‌دهد.
+ * This is the template that displays the front page of the site.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

@@ -1,8 +1,8 @@
 <?php
 /**
- * برندینگ سایت
+ * Site Branding
  *
- * عنوان سایت و لوگو را نمایش می‌دهد.
+ * Displays the site title and logo.
  */
 ?>
 

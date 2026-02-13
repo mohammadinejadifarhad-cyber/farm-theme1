@@ -1,38 +1,38 @@
 msgid "Welcome to Farm"
-msgstr "به مزرعه خوش آمدید"
+msgstr "Welcome to Farm"
 
 msgid "Our Products"
-msgstr "محصولات ما"
+msgstr "Our Products"
 
 msgid "Fertilizers"
-msgstr "کودها"
+msgstr "Fertilizers"
 
 msgid "Pesticides"
-msgstr "سموم"
+msgstr "Pesticides"
 
 msgid "Contact Us"
-msgstr "تماس با ما"
+msgstr "Contact Us"
 
 msgid "Get in Touch"
-msgstr "با ما در ارتباط باشید"
+msgstr "Get in Touch"
 
 msgid "Thank you for visiting our site!"
-msgstr "از بازدید سایت ما سپاسگزاریم!"
+msgstr "Thank you for visiting our site!"
 
 msgid "404 - Page Not Found"
-msgstr "۴۰۴ - صفحه پیدا نشد"
+msgstr "404 - Page Not Found"
 
 msgid "Return to Home"
-msgstr "بازگشت به صفحه اصلی"
+msgstr "Return to Home"
 
 msgid "Read More"
-msgstr "بیشتر بخوانید"
+msgstr "Read More"
 
 msgid "Latest News"
-msgstr "آخرین اخبار"
+msgstr "Latest News"
 
 msgid "Blog"
-msgstr "وبلاگ"
+msgstr "Blog"
 
 msgid "Search"
-msgstr "جستجو"
+msgstr "Search"
