@@ -4,12 +4,12 @@
 
 <footer>
     <div class="footer-content">
-        <p>&copy; <?php echo date('Y'); ?> Your Agricultural Business Name. All rights reserved.</p>
-        <p>Follow us on:</p>
+        <p>&copy; <?php echo date('Y'); ?> نام کسب‌وکار کشاورزی شما. تمامی حقوق محفوظ است.</p>
+        <p>ما را دنبال کنید:</p>
         <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li><a href="#">فیسبوک</a></li>
+            <li><a href="#">توییتر</a></li>
+            <li><a href="#">اینستاگرام</a></li>
         </ul>
     </div>
 </footer>
