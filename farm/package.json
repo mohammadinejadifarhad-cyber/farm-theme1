@@ -1,0 +1,21 @@
+{
+  "name": "farm",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme for an agricultural business selling fertilizers and pesticides.",
+  "main": "index.php",
+  "scripts": {
+    "build": "npm run build-css && npm run build-js",
+    "build-css": "node-sass assets/scss/main.scss assets/css/main.css",
+    "build-js": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
