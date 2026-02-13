@@ -1,5 +1,10 @@
 <?php
-get_header(); ?>
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+get_header();
+?>
 
 <main id="main" class="site-main" role="main">
 
@@ -13,7 +18,8 @@ get_header(); ?>
         </header>
 
         <?php
-        while ( have_posts() ) : the_post();
+        while ( have_posts() ) :
+            the_post();
             get_template_part( 'template-parts/content/content', get_post_type() );
         endwhile;
 
@@ -21,7 +27,8 @@ get_header(); ?>
 
     else :
         get_template_part( 'template-parts/content/content', 'none' );
-    endif; ?>
+    endif;
+    ?>
 
 </main>
 

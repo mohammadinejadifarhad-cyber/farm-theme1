@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 /**
  * The main template file.
  *
@@ -7,7 +11,8 @@
  * @package farm
  */
 
-get_header(); ?>
+get_header();
+?>
 
 <main id="main" class="site-main">
     <section class="content-area">

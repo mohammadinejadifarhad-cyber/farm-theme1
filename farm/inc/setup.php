@@ -1,33 +1,47 @@
 <?php
-// Setup theme features and functionality
+/**
+ * Setup theme features and functionality.
+ *
+ * @package farm
+ */
 
-function farm_setup() {
-    // Add support for post thumbnails
-    add_theme_support('post-thumbnails');
-
-    // Register a custom navigation menu
-    register_nav_menus(array(
-        'primary' => __('Primary Menu', 'farm'),
-    ));
-
-    // Add support for HTML5 markup
-    add_theme_support('html5', array(
-        'search-form',
-        'comment-form',
-        'comment-list',
-        'gallery',
-        'caption',
-    ));
-
-    // Add support for custom logo
-    add_theme_support('custom-logo', array(
-        'height' => 100,
-        'width' => 400,
-        'flex-height' => true,
-        'flex-width' => true,
-    ));
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
 }
 
-// Hook the setup function to the after_setup_theme action
-add_action('after_setup_theme', 'farm_setup');
-?>
+if ( ! function_exists( 'farm_setup' ) ) {
+    function farm_setup() {
+        add_theme_support( 'post-thumbnails' );
+
+        register_nav_menus(
+            array(
+                'primary' => __( 'Primary Menu', 'farm' ),
+                'footer'  => __( 'Footer Menu', 'farm' ),
+            )
+        );
+
+        add_theme_support(
+            'html5',
+            array(
+                'search-form',
+                'comment-form',
+                'comment-list',
+                'gallery',
+                'caption',
+            )
+        );
+
+        add_theme_support(
+            'custom-logo',
+            array(
+                'height'      => 100,
+                'width'       => 400,
+                'flex-height' => true,
+                'flex-width'  => true,
+            )
+        );
+
+        add_theme_support( 'title-tag' );
+    }
+}
+add_action( 'after_setup_theme', 'farm_setup' );

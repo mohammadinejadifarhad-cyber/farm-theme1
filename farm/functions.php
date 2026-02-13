@@ -1,29 +1,28 @@
 <?php
-// functions.php
+/**
+ * Theme bootstrap file.
+ *
+ * @package farm
+ */
 
-// Theme setup
-function farm_setup() {
-    // Add support for post thumbnails
-    add_theme_support('post-thumbnails');
-
-    // Register navigation menus
-    register_nav_menus(array(
-        'primary' => __('Primary Menu', 'farm'),
-        'footer' => __('Footer Menu', 'farm'),
-    ));
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
 }
-add_action('after_setup_theme', 'farm_setup');
 
-// Enqueue styles and scripts
-function farm_enqueue_scripts() {
-    wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/css/main.css');
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), null, true);
+if ( ! defined( 'FARM_VERSION' ) ) {
+    $theme = wp_get_theme();
+    define( 'FARM_VERSION', $theme->get( 'Version' ) ? $theme->get( 'Version' ) : '1.0.0' );
 }
-add_action('wp_enqueue_scripts', 'farm_enqueue_scripts');
 
-// Custom post types
-require get_template_directory() . '/inc/custom-post-types.php';
+$farm_includes = array(
+    '/inc/setup.php',
+    '/inc/enqueue.php',
+    '/inc/customizer.php',
+);
 
-// Customizer settings
-require get_template_directory() . '/inc/customizer.php';
-?>
+foreach ( $farm_includes as $farm_file ) {
+    $farm_path = get_template_directory() . $farm_file;
+    if ( file_exists( $farm_path ) ) {
+        require_once $farm_path;
+    }
+}

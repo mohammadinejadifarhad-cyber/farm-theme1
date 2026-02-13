@@ -4,6 +4,10 @@
  *
  * Displays the site title and logo.
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 ?>
 
 <div class="site-branding">
