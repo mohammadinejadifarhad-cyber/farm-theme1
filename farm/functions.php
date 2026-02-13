@@ -1,29 +1,29 @@
 <?php
-// functions.php
+// فایل functions.php
 
-// Theme setup
+// راه‌اندازی پوسته
 function farm_setup() {
-    // Add support for post thumbnails
+    // افزودن پشتیبانی از تصویر شاخص
     add_theme_support('post-thumbnails');
 
-    // Register navigation menus
+    // ثبت فهرست‌های ناوبری
     register_nav_menus(array(
-        'primary' => __('Primary Menu', 'farm'),
-        'footer' => __('Footer Menu', 'farm'),
+        'primary' => __('فهرست اصلی', 'farm'),
+        'footer' => __('فهرست پابرگ', 'farm'),
     ));
 }
 add_action('after_setup_theme', 'farm_setup');
 
-// Enqueue styles and scripts
+// بارگذاری استایل‌ها و اسکریپت‌ها
 function farm_enqueue_scripts() {
     wp_enqueue_style('main-css', get_template_directory_uri() . '/assets/css/main.css');
     wp_enqueue_script('main-js', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'farm_enqueue_scripts');
 
-// Custom post types
+// نوع نوشته‌های سفارشی
 require get_template_directory() . '/inc/custom-post-types.php';
 
-// Customizer settings
+// تنظیمات سفارشی‌ساز
 require get_template_directory() . '/inc/customizer.php';
 ?>

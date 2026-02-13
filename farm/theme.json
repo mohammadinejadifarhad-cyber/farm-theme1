@@ -4,22 +4,22 @@
     "color": {
       "palette": [
         {
-          "name": "Primary",
+          "name": "اصلی",
           "slug": "primary",
           "color": "#4CAF50"
         },
         {
-          "name": "Secondary",
+          "name": "ثانویه",
           "slug": "secondary",
           "color": "#FF9800"
         },
         {
-          "name": "Background",
+          "name": "پس‌زمینه",
           "slug": "background",
           "color": "#FFFFFF"
         },
         {
-          "name": "Text",
+          "name": "متن",
           "slug": "text",
           "color": "#333333"
         }
@@ -28,22 +28,22 @@
     "typography": {
       "fontSizes": [
         {
-          "name": "Small",
+          "name": "کوچک",
           "slug": "small",
           "size": "12px"
         },
         {
-          "name": "Normal",
+          "name": "معمولی",
           "slug": "normal",
           "size": "16px"
         },
         {
-          "name": "Large",
+          "name": "بزرگ",
           "slug": "large",
           "size": "24px"
         },
         {
-          "name": "Huge",
+          "name": "خیلی بزرگ",
           "slug": "huge",
           "size": "36px"
         }

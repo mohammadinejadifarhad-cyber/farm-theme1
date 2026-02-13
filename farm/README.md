@@ -1,31 +1,31 @@
-# Farm Theme
+# پوسته مزرعه
 
-Welcome to the Farm theme for WordPress, designed specifically for agricultural businesses that sell fertilizers and pesticides. This theme provides a clean and user-friendly interface to showcase your products and services effectively.
+به پوسته «مزرعه» برای وردپرس خوش آمدید. این پوسته مخصوص کسب‌وکارهای کشاورزی طراحی شده که کودها و سموم را عرضه می‌کنند. این پوسته یک رابط کاربری تمیز و کاربرپسند برای نمایش مؤثر محصولات و خدمات شما فراهم می‌کند.
 
-## Features
+## ویژگی‌ها
 
-- **Responsive Design**: The theme is fully responsive, ensuring a seamless experience on all devices.
-- **Custom Post Types**: Easily manage your products with custom post types for fertilizers and pesticides.
-- **Theme Customization**: Utilize the WordPress Customizer to modify theme settings and styles.
-- **SEO Optimized**: Built with SEO best practices in mind to help your site rank better in search engines.
+- **طراحی واکنش‌گرا**: پوسته کاملاً واکنش‌گرا است و در همه دستگاه‌ها تجربه‌ای یکپارچه ارائه می‌دهد.
+- **نوع نوشته سفارشی**: می‌توانید محصولات خود را با نوع نوشته‌های سفارشی برای کودها و سموم مدیریت کنید.
+- **شخصی‌سازی پوسته**: با سفارشی‌ساز وردپرس تنظیمات و ظاهر پوسته را تغییر دهید.
+- **بهینه برای سئو**: با رعایت اصول سئو ساخته شده تا به بهبود رتبه سایت در موتورهای جستجو کمک کند.
 
-## Installation
+## نصب
 
-1. Download the theme files.
-2. Upload the `farm` folder to the `/wp-content/themes/` directory.
-3. Activate the theme through the 'Themes' menu in WordPress.
-4. Customize the theme settings as per your requirements.
+1. فایل‌های پوسته را دانلود کنید.
+2. پوشه `farm` را در مسیر `/wp-content/themes/` آپلود کنید.
+3. پوسته را از منوی «پوسته‌ها» در وردپرس فعال کنید.
+4. تنظیمات پوسته را متناسب با نیاز خود شخصی‌سازی کنید.
 
-## Usage
+## استفاده
 
-- Use the front-page.php file to set up your homepage with featured products.
-- Customize the header and footer through the template-parts/header/site-branding.php and template-parts/footer/site-footer.php files.
-- Add your products using the custom post types defined in the theme.
+- از فایل `front-page.php` برای تنظیم صفحه اصلی و نمایش محصولات ویژه استفاده کنید.
+- سربرگ و پابرگ را از طریق فایل‌های `template-parts/header/site-branding.php` و `template-parts/footer/site-footer.php` سفارشی کنید.
+- محصولات خود را با نوع نوشته‌های سفارشی تعریف‌شده در پوسته اضافه کنید.
 
-## Contributing
+## مشارکت
 
-If you would like to contribute to the development of the Farm theme, feel free to fork the repository and submit a pull request.
+اگر مایل به مشارکت در توسعه این پوسته هستید، می‌توانید مخزن را فورک کرده و درخواست ادغام ارسال کنید.
 
-## License
+## مجوز
 
-This theme is licensed under the GNU General Public License v2.0 or later.
+این پوسته تحت مجوز GNU General Public License v2.0 یا نسخه‌های جدیدتر منتشر می‌شود.

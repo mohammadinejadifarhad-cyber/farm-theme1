@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying individual pages.
+ * قالب نمایش برگه‌های تکی.
  *
  * @package farm
  */
@@ -16,12 +16,12 @@ get_header(); ?>
 
             get_template_part( 'template-parts/content/content', 'page' );
 
-            // If comments are open or we have at least one comment, load up the comment template.
+            // اگر دیدگاه‌ها باز باشند یا دست‌کم یک دیدگاه وجود داشته باشد، قالب دیدگاه‌ها بارگذاری می‌شود.
             if ( comments_open() || get_comments_number() ) {
                 comments_template();
             }
 
-        endwhile; // End of the loop.
+        endwhile; // پایان حلقه.
         ?>
 
     </main><!-- #main -->

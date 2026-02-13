@@ -1,2 +1,2 @@
-# farm-theme
-it is a wordpress theme for farmers to sell their products.
+# پوسته مزرعه
+این یک پوسته وردپرس برای کشاورزانی است که محصولات خود را می‌فروشند.

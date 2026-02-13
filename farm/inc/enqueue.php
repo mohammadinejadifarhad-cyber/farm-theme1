@@ -1,9 +1,9 @@
 <?php
 function farm_enqueue_scripts() {
-    // Enqueue main stylesheet
+    // بارگذاری فایل استایل اصلی
     wp_enqueue_style('farm-main-style', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0', 'all');
 
-    // Enqueue main JavaScript file
+    // بارگذاری فایل جاوااسکریپت اصلی
     wp_enqueue_script('farm-main-script', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0', true);
 }
 

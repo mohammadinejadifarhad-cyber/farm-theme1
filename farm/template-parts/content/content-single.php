@@ -1,5 +1,5 @@
 <?php
-// This file defines the layout for the content of a single post.
+// این فایل چیدمان محتوای یک نوشته تکی را مشخص می‌کند.
 
 if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
@@ -8,7 +8,7 @@ if ( have_posts() ) :
                 <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
                 <div class="entry-meta">
                     <?php
-                    echo 'Posted on ' . get_the_date() . ' by ' . get_the_author();
+                    echo 'منتشر شده در ' . get_the_date() . ' توسط ' . get_the_author();
                     ?>
                 </div>
             </header>
@@ -21,10 +21,10 @@ if ( have_posts() ) :
 
             <footer class="entry-footer">
                 <?php
-                echo 'Categories: ' . get_the_category_list( ', ' );
+                echo 'دسته‌بندی‌ها: ' . get_the_category_list( '، ' );
                 ?>
             </footer>
         </article>
     <?php endwhile;
-endif; 
+endif;
 ?>
